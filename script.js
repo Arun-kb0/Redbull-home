@@ -23,7 +23,7 @@ const headerOnScroll = () => {
     const currentScrollPos = window.scrollY
 
     console.log(currentScrollPos)
-    if (currentScrollPos < 324) {
+    if ( currentScrollPos < 324) {
       header.classList.add('header-transparent')
     } else if (prevScrollPos < currentScrollPos) {
       header.classList.add('header-hide')
